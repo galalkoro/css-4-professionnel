@@ -12,9 +12,11 @@ body{
 
 .spinner::before,
 .spinner:after{
-    content: "";
+    content: "output";
     position: absolute;
     border-radius: inherit;
+    color: white;
+    font-size: 2em;
 }
 
 .spinner:before{
