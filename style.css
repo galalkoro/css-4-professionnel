@@ -1,7 +1,6 @@
 body{
-    background-color: aqua;
+    background-color: aquamarine;
 }
-
 
 .spinner{
     position: relative;
@@ -40,5 +39,36 @@ body{
 @keyframes spin{
     to{
         transform: rotate(360deg);
+    }
+}
+
+#button{
+    background-color: #3b3e43;
+    width: auto;
+    height: 30vh;
+}
+
+
+.button{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #1349eb;
+    border-radius: 10px;
+    margin-left: 300px;
+    background-color: rgb(8, 86, 86);
+    margin-top: 100px;
+    
+}
+
+.button:hover{
+    animation: pulsate 5s  ease-in-out;
+
+}
+
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
     }
 }
